@@ -1,0 +1,574 @@
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+COPY 96
+COPY 1241
+COPY 3558
+COPY 19111
+COPY 3756
+COPY 8583
+ firstname |  lastname  | year 
+-----------+------------+------
+ Al        | Cervi      | 1949
+ Al        | Cervi      | 1950
+ Al        | Cervi      | 1951
+ Al        | Cervi      | 1952
+ Alex      | Hannum     | 1956
+ Andrew    | Levane     | 1952
+ Bill      | Russell    | 1966
+ Bill      | Russell    | 1967
+ Bill      | Russell    | 1968
+ Bob       | Cousy      | 1969
+ Bob       | Feerick    | 1949
+ Bob       | Leonard    | 1962
+ Bob       | Pettit     | 1961
+ Bruce     | Hale       | 1948
+ Buddy     | Jeannette  | 1947
+ Buddy     | Jeannette  | 1948
+ Buddy     | Jeannette  | 1949
+ Carl      | Braun      | 1959
+ Carl      | Braun      | 1960
+ Charley   | Shipp      | 1949
+ Cliff     | Barker     | 1949
+ Cliff     | Barker     | 1950
+ Dave      | Cowens     | 1978
+ Dick      | Fitzgerald | 1946
+ Dolph     | Schayes    | 1963
+ Ed        | Macauley   | 1958
+ Ed        | Sadowski   | 1946
+ Grady     | Lewis      | 1948
+ Howie     | Schultz    | 1949
+ Jack      | Smiley     | 1949
+ Jerry     | Reynolds   | 1986
+ Jerry     | Reynolds   | 1987
+ Jerry     | Reynolds   | 1988
+ Jerry     | Reynolds   | 1989
+ Jimmy     | Darden     | 1949
+ Kevin     | Loughery   | 1972
+ Lenny     | Wilkens    | 1969
+ Lenny     | Wilkens    | 1970
+ Lenny     | Wilkens    | 1971
+ Lenny     | Wilkens    | 1974
+ Mike      | Dunleavy   | 2003
+ Paul      | Armstrong  | 1948
+ Paul      | Seymour    | 1956
+ Paul      | Seymour    | 1957
+ Paul      | Seymour    | 1958
+ Paul      | Seymour    | 1959
+ Red       | Holzman    | 1953
+ Richie    | Guerin     | 1964
+ Richie    | Guerin     | 1965
+ Richie    | Guerin     | 1966
+ Richie    | Guerin     | 1968
+ Richie    | Guerin     | 1969
+ Slater    | Martin     | 1956
+ Tom       | Marshall   | 1958
+(54 rows)
+
+ firstname | lastname  | year 
+-----------+-----------+------
+ Cliff     | Barker    | 1949
+ Cliff     | Barker    | 1950
+ Carl      | Braun     | 1959
+ Carl      | Braun     | 1960
+ Al        | Cervi     | 1949
+ Al        | Cervi     | 1950
+ Al        | Cervi     | 1951
+ Al        | Cervi     | 1952
+ Bob       | Cousy     | 1969
+ Dave      | Cowens    | 1978
+ Jimmy     | Darden    | 1949
+ Bob       | Feerick   | 1949
+ Richie    | Guerin    | 1964
+ Richie    | Guerin    | 1965
+ Richie    | Guerin    | 1966
+ Richie    | Guerin    | 1968
+ Richie    | Guerin    | 1969
+ Bruce     | Hale      | 1948
+ Alex      | Hannum    | 1956
+ Red       | Holzman   | 1953
+ Buddy     | Jeannette | 1947
+ Buddy     | Jeannette | 1948
+ Buddy     | Jeannette | 1949
+ Bob       | Leonard   | 1962
+ Andrew    | Levane    | 1952
+ Grady     | Lewis     | 1948
+ Kevin     | Loughery  | 1972
+ Ed        | Macauley  | 1958
+ Tom       | Marshall  | 1958
+ Slater    | Martin    | 1956
+ Bob       | Pettit    | 1961
+ Bill      | Russell   | 1966
+ Bill      | Russell   | 1967
+ Bill      | Russell   | 1968
+ Ed        | Sadowski  | 1946
+ Dolph     | Schayes   | 1963
+ Howie     | Schultz   | 1949
+ Paul      | Seymour   | 1956
+ Paul      | Seymour   | 1957
+ Paul      | Seymour   | 1958
+ Paul      | Seymour   | 1959
+ Charley   | Shipp     | 1949
+ Jack      | Smiley    | 1949
+ Lenny     | Wilkens   | 1969
+ Lenny     | Wilkens   | 1970
+ Lenny     | Wilkens   | 1971
+ Lenny     | Wilkens   | 1974
+(47 rows)
+
+ year |        avg         
+------+--------------------
+ 1989 | 212.35714285714286
+ 1990 | 210.41666666666666
+ 1991 |            208.875
+ 1992 | 211.23529411764707
+ 1993 |              214.5
+ 1994 |           214.0625
+ 1995 |                219
+ 1996 | 218.66666666666666
+ 1997 | 219.94117647058823
+ 1999 |              214.2
+ 2000 |              217.4
+ 2001 |              221.5
+ 2002 | 223.28571428571428
+ 2003 | 223.52941176470588
+(14 rows)
+
+ draft_from | count 
+------------+-------
+ UCLA       |   112
+(1 row)
+
+ firstname | lastname |      win_pct       
+-----------+----------+--------------------
+ Phil      | Jackson  | 0.7247386759581882
+(1 row)
+
+ count |  avg   
+-------+--------
+    44 | 223.75
+(1 row)
+
+ firstname |  lastname   
+-----------+-------------
+ John      | Lucas
+ Bernie    | Bickerstaff
+ Isiah     | Thomas
+ Paul      | Westhead
+ Mike      | D'Antoni
+ Bob       | Weiss
+ Jerry     | Tarkanian
+ Slater    | Martin
+ Larry     | Brown
+ Bob       | Hill
+ Gene      | Littles
+ Kevin     | Loughery
+ Andrew    | Levane
+ Jack      | McKinney
+ Paul      | Seymour
+ Jack      | Ramsay
+ Cotton    | Fitzsimmons
+ Harry     | Gallatin
+ Bob       | Leonard
+ Jeff      | Bzdelik
+ Andy      | Phillip
+ Ed        | Macauley
+ Stan      | Albeck
+ Bob       | Bass
+ Rick      | Carlisle
+ Rex       | Hughes
+ Red       | Holzman
+ Dan       | Issel
+ Richie    | Guerin
+ Bill      | Hanzlik
+ Morris    | McHone
+ Doug      | Moe
+ George    | Irvine
+ Alex      | Hannum
+ Gregg     | Popovich
+ Donnie    | Walsh
+ Larry     | Bird
+ Mike      | Evans
+ Dick      | Motta
+ Mel       | Daniels
+ Dick      | Versace
+ Bob       | Pettit
+(42 rows)
+
+ firstname |  lastname   
+-----------+-------------
+ Alex      | Hannum
+ Andrew    | Levane
+ Andy      | Phillip
+ Bernie    | Bickerstaff
+ Bill      | Hanzlik
+ Bob       | Bass
+ Bob       | Hill
+ Bob       | Leonard
+ Bob       | Pettit
+ Bob       | Weiss
+ Cotton    | Fitzsimmons
+ Dan       | Issel
+ Dick      | Motta
+ Dick      | Versace
+ Donnie    | Walsh
+ Doug      | Moe
+ Ed        | Macauley
+ Gene      | Littles
+ George    | Irvine
+ Gregg     | Popovich
+ Harry     | Gallatin
+ Isiah     | Thomas
+ Jack      | McKinney
+ Jack      | Ramsay
+ Jeff      | Bzdelik
+ Jerry     | Tarkanian
+ John      | Lucas
+ Kevin     | Loughery
+ Larry     | Bird
+ Larry     | Brown
+ Mel       | Daniels
+ Mike      | D'Antoni
+ Mike      | Evans
+ Morris    | McHone
+ Paul      | Seymour
+ Paul      | Westhead
+ Red       | Holzman
+ Rex       | Hughes
+ Richie    | Guerin
+ Rick      | Carlisle
+ Slater    | Martin
+ Stan      | Albeck
+(42 rows)
+
+ firstname |  lastname  
+-----------+------------
+ Adrian    | Griffin
+ Bryce     | Drew
+ Caldwell  | Jones
+ Charles   | Jones
+ Charles   | Oakley
+ Chuck     | Nevitt
+ David     | Wood
+ Dwight    | Jones
+ Earl      | Cureton
+ Eric      | Piatkowski
+ Granville | Waiters
+ Jack      | Marin
+ Jawann    | Oldham
+ Larry     | Spriggs
+ Mark      | Bryant
+ Matt      | Guokas
+ Matt      | Maloney
+ Mccoy     | Mclemore
+ Mitchell  | Wiggins
+ Othella   | Harrington
+ Paul      | Mccracken
+ Phil      | Hicks
+ Rodney    | Mccray
+ Scottie   | Pippen
+ Sedale    | Threatt
+ Tony      | Brown
+(26 rows)
+
+ firstname |   lastname   
+-----------+--------------
+ Kareem    | Abdul-jabbar
+ Karl      | Malone
+ Michael   | Jordan
+ Wilt      | Chamberlain
+ Moses     | Malone
+ Elvin     | Hayes
+ Hakeem    | Olajuwon
+ Oscar     | Robertson
+ Dominique | Wilkins
+ John      | Havlicek
+(10 rows)
+
+ firstname | lastname 
+-----------+----------
+ Clarence  | Hermsen
+(1 row)
+
+  pts  | firstname |   lastname   
+-------+-----------+--------------
+ 38387 | Kareem    | Abdul-jabbar
+(1 row)
+
+CREATE FUNCTION
+ seasons_played 
+----------------
+             15
+(1 row)
+
+CREATE TABLE
+CREATE FUNCTION
+ firstname |  lastname   | st_10000 | st_20000 | st_30000 | ge_30000 
+-----------+-------------+----------+----------+----------+----------
+ Adrian    | Caldwell    |      390 |          |          |         
+ Adrian    | Dantley     |          |          |    23177 |         
+ Al        | Harrington  |     4743 |          |          |         
+ Alex      | English     |          |          |    25613 |         
+ Anthony   | Frederick   |      718 |          |          |         
+ Anthony   | Johnson     |     2448 |          |          |         
+ Antonio   | Davis       |     8825 |          |          |         
+ Art       | Becker      |     5160 |          |          |         
+ Austin    | Croshere    |     3627 |          |          |         
+ Bill      | Garnett     |     1638 |          |          |         
+ Bill      | Martin      |      397 |          |          |         
+ Bill      | Newton      |       73 |          |          |         
+ Billy     | Keller      |     6588 |          |          |         
+ Billy     | Knight      |          |    10561 |          |         
+ Billy     | Knight      |     3340 |          |          |         
+ Bo        | Lamar       |     3976 |          |          |         
+ Bo        | Lamar       |      502 |          |          |         
+ Bob       | Arnzen      |      301 |          |          |         
+ Bob       | Arnzen      |      142 |          |          |         
+ Bob       | Carrington  |      672 |          |          |         
+ Bob       | Hooper      |      271 |          |          |         
+ Bob       | Netolicky   |     9876 |          |          |         
+ Bobby     | Edmonds     |      580 |          |          |         
+ Bobby     | Wilson      |      792 |          |          |         
+ Brad      | Branson     |      391 |          |          |         
+ Brad      | Davis       |     7866 |          |          |         
+ Brad      | Miller      |     5043 |          |          |         
+ Brent     | Scott       |       19 |          |          |         
+ Brian     | Rowsom      |      457 |          |          |         
+ Britton   | Johnsen     |       54 |          |          |         
+ Brook     | Steppe      |     1297 |          |          |         
+ Bruce     | Kuczenski   |       28 |          |          |         
+ Bruno     | Sundov      |      173 |          |          |         
+ Bryan     | Warrick     |      677 |          |          |         
+ Butch     | Carter      |     3137 |          |          |         
+ Byron     | Dinkins     |      151 |          |          |         
+ Byron     | Scott       |          |    15097 |          |         
+ Calvin    | Natt        |          |    10291 |          |         
+ Carlos    | Rogers      |     2196 |          |          |         
+ Charles   | Jordan      |      369 |          |          |         
+ Charlie   | Edge        |     1201 |          |          |         
+ Chris     | Mullin      |          |    17911 |          |         
+ Chuck     | Person      |          |    13858 |          |         
+ Clark     | Kellogg     |     4918 |          |          |         
+ Clemon    | Johnson     |     4102 |          |          |         
+ Clint     | Richardson  |     4084 |          |          |         
+ Clinton   | Wheeler     |      254 |          |          |         
+ Clyde     | Mayes       |      297 |          |          |         
+ Corky     | Calhoun     |     2896 |          |          |         
+ Dale      | Davis       |     8597 |          |          |         
+ Dan       | Roundfield  |      339 |          |          |         
+ Dan       | Roundfield  |          |    11318 |          |         
+ Darnell   | Hillman     |     2471 |          |          |         
+ Darnell   | Hillman     |     4195 |          |          |         
+ Darrell   | Elston      |      596 |          |          |         
+ Darrell   | Elston      |        5 |          |          |         
+ Darvin    | Ham         |     1139 |          |          |         
+ Dave      | Robisch     |     4426 |          |          |         
+ Dave      | Robisch     |     6155 |          |          |         
+ David     | Harrison    |      264 |          |          |         
+ Derrick   | Mckey       |          |    10266 |          |         
+ Detlef    | Schrempf    |          |    15761 |          |         
+ Devin     | Durrant     |      317 |          |          |         
+ Dick      | Grubar      |        4 |          |          |         
+ Dick      | Miller      |        8 |          |          |         
+ Don       | Buse        |     4485 |          |          |         
+ Don       | Buse        |     2405 |          |          |         
+ Don       | Dee         |      332 |          |          |         
+ Donnie    | Freeman     |      689 |          |          |         
+ Donnie    | Freeman     |          |    11544 |          |         
+ Duane     | Ferrell     |     3704 |          |          |         
+ Duane     | Schintzius  |      587 |          |          |         
+ Dudley    | Bradley     |     3131 |          |          |         
+ Dwayne    | Mcclain     |      157 |          |          |         
+ Dyron     | Nix         |       39 |          |          |         
+ Earl      | Tatum       |     2508 |          |          |         
+ Earlie    | Higgins     |      231 |          |          |         
+ Ed        | Manning     |     2123 |          |          |         
+ Ed        | Manning     |     1418 |          |          |         
+ Eddie     | Gill        |      474 |          |          |         
+ Eddie     | Johnson     |          |    19202 |          |         
+ Erick     | Dampier     |     4951 |          |          |         
+ Erick     | Strickland  |     3780 |          |          |         
+ Etdrick   | Bohannon    |       37 |          |          |         
+ Everette  | Stephens    |       71 |          |          |         
+ Fred      | Hoiberg     |     2944 |          |          |         
+ Fred      | Jones       |     1233 |          |          |         
+ Freddie   | Lewis       |          |    11660 |          |         
+ Freddie   | Lewis       |      373 |          |          |         
+ George    | Johnson     |     4214 |          |          |         
+ George    | Mccloud     |     6925 |          |          |         
+ George    | Mcginnis    |     7919 |          |          |         
+ George    | Mcginnis    |     9090 |          |          |         
+ George    | Peeples     |     2502 |          |          |         
+ Gerald    | Paddio      |      715 |          |          |         
+ Granville | Waiters     |      606 |          |          |         
+ Greg      | Dreiling    |     1014 |          |          |         
+ Greg      | Kelser      |     2961 |          |          |         
+ Greg      | Kite        |     1717 |          |          |         
+ Gus       | Johnson     |     9781 |          |          |         
+ Gus       | Johnson     |      462 |          |          |         
+ Guy       | Morgan      |       15 |          |          |         
+ Harry     | Joyner      |        0 |          |          |         
+ Haywoode  | Workman     |     1967 |          |          |         
+ Herb      | Williams    |          |    11944 |          |         
+ Jack      | Thompson    |        2 |          |          |         
+ Jalen     | Rose        |          |    12225 |          |         
+ Jamaal    | Tinsley     |     2365 |          |          |         
+ James     | Dawson      |      118 |          |          |         
+ James     | Edwards     |          |    14862 |          |         
+ James     | Jones       |      378 |          |          |         
+ Jamison   | Brewer      |       89 |          |          |         
+ Jawann    | Oldham      |     1455 |          |          |         
+ Jay       | Miller      |       20 |          |          |         
+ Jay       | Miller      |      629 |          |          |         
+ Jeff      | Foster      |     1844 |          |          |         
+ Jermaine  | O'neal      |     7463 |          |          |         
+ Jerome    | Anderson    |      127 |          |          |         
+ Jerome    | Lane        |     1154 |          |          |         
+ Jerry     | Harkness    |       29 |          |          |         
+ Jerry     | Harkness    |      589 |          |          |         
+ Jerry     | Mckee       |        0 |          |          |         
+ Jerry     | Sichting    |     4141 |          |          |         
+ Jim       | Rayl        |     1125 |          |          |         
+ Jim       | Thomas      |     1355 |          |          |         
+ Joey      | Hassett     |     1723 |          |          |         
+ John      | Barnhill    |     1437 |          |          |         
+ John      | Barnhill    |     3648 |          |          |         
+ John      | Duren       |      712 |          |          |         
+ John      | Edwards     |       29 |          |          |         
+ John      | Fairchild   |     1025 |          |          |         
+ John      | Fairchild   |       60 |          |          |         
+ John      | Kuester     |      451 |          |          |         
+ John      | Long        |          |    12131 |          |         
+ John      | Williams    |     4406 |          |          |         
+ John      | Williamson  |     3215 |          |          |         
+ John      | Williamson  |     5802 |          |          |         
+ Johnny    | Davis       |     9710 |          |          |         
+ Johnny    | Neumann     |      464 |          |          |         
+ Johnny    | Neumann     |     5558 |          |          |         
+ Jonathan  | Bender      |     1325 |          |          |         
+ Jose      | Slaughter   |      225 |          |          |         
+ Kenny     | Anderson    |          |    10789 |          |         
+ Kenny     | Natt        |      150 |          |          |         
+ Kenny     | Williams    |     1247 |          |          |         
+ Kent      | Edelin      |       11 |          |          |         
+ Kevin     | Joyce       |     1906 |          |          |         
+ Kevin     | Mckenna     |     1320 |          |          |         
+ Kevin     | Ollie       |     1789 |          |          |         
+ Kevin     | Stacom      |     1781 |          |          |         
+ Kyle      | Macy        |     5259 |          |          |         
+ Lari      | Ketner      |       34 |          |          |         
+ Larry     | Cannon      |      124 |          |          |         
+ Larry     | Cannon      |     3421 |          |          |         
+ Lasalle   | Thompson    |     7806 |          |          |         
+ Len       | Elmore      |     2327 |          |          |         
+ Len       | Elmore      |     1621 |          |          |         
+ Leroy     | Combs       |      218 |          |          |         
+ Lester    | Conner      |     4337 |          |          |         
+ Louis     | Orr         |     5545 |          |          |         
+ Malik     | Sealy       |     4955 |          |          |         
+ Marcus    | Haislip     |      286 |          |          |         
+ Mark      | Jackson     |          |    12489 |          |         
+ Mark      | Pope        |      281 |          |          |         
+ Mark      | Strickland  |     1281 |          |          |         
+ Mark      | West        |     6259 |          |          |         
+ Marty     | Byrnes      |     1495 |          |          |         
+ Marv      | Winkler     |        8 |          |          |         
+ Marv      | Winkler     |       40 |          |          |         
+ Matt      | Aitch       |      252 |          |          |         
+ Mel       | Bennett     |      904 |          |          |         
+ Mel       | Bennett     |      498 |          |          |         
+ Mel       | Daniels     |          |    11739 |          |         
+ Mel       | Daniels     |       39 |          |          |         
+ Michael   | Brooks      |     4086 |          |          |         
+ Michael   | Curry       |     2986 |          |          |         
+ Michael   | Williams    |     4533 |          |          |         
+ Mickey    | Johnson     |          |    12748 |          |         
+ Mike      | Bantom      |     8568 |          |          |         
+ Mike      | Flynn       |      421 |          |          |         
+ Mike      | Flynn       |      896 |          |          |         
+ Mike      | Sanders     |     5162 |          |          |         
+ Nate      | Barnett     |       27 |          |          |         
+ Oliver    | Darden      |     2047 |          |          |         
+ Peter     | Verhoeven   |     1000 |          |          |         
+ Phil      | Chenier     |     9931 |          |          |         
+ Phil      | Wagner      |       36 |          |          |         
+ Pooh      | Richardson  |     7083 |          |          |         
+ Primoz    | Brezec      |     1051 |          |          |         
+ Quinn     | Buckner     |     5929 |          |          |         
+ Ralph     | Jackson     |        2 |          |          |         
+ Randy     | Wittman     |     4034 |          |          |         
+ Raymond   | Townsend    |      745 |          |          |         
+ Reggie    | Harding     |     1774 |          |          |         
+ Reggie    | Harding     |      401 |          |          |         
+ Reggie    | Miller      |          |          |    25279 |         
+ Reggie    | Williams    |     7508 |          |          |         
+ Richard   | Morton      |        6 |          |          |         
+ Rick      | Mount       |     3330 |          |          |         
+ Rick      | Robey       |     3723 |          |          |         
+ Rickey    | Green       |     8870 |          |          |         
+ Ricky     | Pierce      |          |    14467 |          |         
+ Ricky     | Sobers      |          |    10902 |          |         
+ Rik       | Smits       |          |    12871 |          |         
+ Rogera    | Brown       |          |    10498 |          |         
+ Ron       | Anderson    |     7056 |          |          |         
+ Ron       | Artest      |     5073 |          |          |         
+ Ron       | Behagen     |     3977 |          |          |         
+ Ron       | Bonham      |      478 |          |          |         
+ Ron       | Bonham      |      245 |          |          |         
+ Ron       | Carter      |      176 |          |          |         
+ Ron       | Kozlicki    |      109 |          |          |         
+ Ron       | Mercer      |     5892 |          |          |         
+ Ron       | Perry       |     2228 |          |          |         
+ Rudy      | Hackett     |      141 |          |          |         
+ Rudy      | Hackett     |       14 |          |          |         
+ Russ      | Schoene     |     1491 |          |          |         
+ Sam       | Mitchell    |     8636 |          |          |         
+ Sam       | Perkins     |          |    15324 |          |         
+ Scot      | Pollard     |     1990 |          |          |         
+ Scott     | Haskin      |       55 |          |          |         
+ Scott     | Skiles      |     6652 |          |          |         
+ Sean      | Green       |      352 |          |          |         
+ Sedric    | Toney       |      409 |          |          |         
+ Sidney    | Lowe        |      562 |          |          |         
+ Stephen   | Jackson     |     4073 |          |          |         
+ Steve     | Chubin      |     2904 |          |          |         
+ Steve     | Green       |      474 |          |          |         
+ Steve     | Green       |      705 |          |          |         
+ Steve     | Stipanovich |     5323 |          |          |         
+ Stuart    | Gray        |      906 |          |          |         
+ Terence   | Stansbury   |     1200 |          |          |         
+ Terry     | Mills       |     7175 |          |          |         
+ Tim       | Hardaway    |          |    15373 |          |         
+ Tom       | Abernethy   |     1779 |          |          |         
+ Tom       | Owens       |     5612 |          |          |         
+ Tom       | Owens       |     4286 |          |          |         
+ Tom       | Thacker     |      299 |          |          |         
+ Tom       | Thacker     |      721 |          |          |         
+ Tony      | Brown       |     2163 |          |          |         
+ Tony      | Zeno        |       14 |          |          |         
+ Tracy     | Jackson     |      694 |          |          |         
+ Travis    | Best        |     5376 |          |          |         
+ Travis    | Grant       |      125 |          |          |         
+ Travis    | Grant       |     2642 |          |          |         
+ Tremaine  | Fowlkes     |      301 |          |          |         
+ Tyus      | Edney       |     1728 |          |          |         
+ Vern      | Fleming     |          |    10125 |          |         
+ Vincent   | Askew       |     3313 |          |          |         
+ Walker    | Russell     |      464 |          |          |         
+ Warren    | Jabali      |     7666 |          |          |         
+ Wayman    | Tisdale     |          |    12878 |          |         
+ Wayne     | Chapman     |     1432 |          |          |         
+ Wayne     | Pack        |       61 |          |          |         
+ Wayne     | Radford     |      202 |          |          |         
+ Wil       | Jones       |     1578 |          |          |         
+ Wil       | Jones       |     6906 |          |          |         
+ Willie    | Smith       |      357 |          |          |         
+ Zan       | Tabak       |     1233 |          |          |         
+(259 rows)
+
+DROP FUNCTION
+DROP FUNCTION
+DROP TABLE
