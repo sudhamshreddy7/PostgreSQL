@@ -1,0 +1,21 @@
+README:
+
+Code changed in files:
+1.	src/backend/storage/buffer/freelist.c
+2.	src/backend/storage/buffer/bufmgr.c
+3.	src/backend/storage/buffer/buf_init.c
+4.	src/include/storage/buf_internals.h
+
+
+Changes in buf_internals.h:
+•	Added a new attribute “timestamp” to track when the buffer is used
+Changes in buf_init.c:
+•	In InitBufferPool function initializing timestamp value of each buffer to 0
+Changed in bufmgr.c:
+•	Declared a new function getMaxTimeStamp1  which returns the maximum time stamp of all buffers to update the recently used buffer’s timestamp to 1+maximum
+•	In ReadBuffer_common function if the buffer is found in buffer pool the we update the buffer’s timestamp to maximum timestamp+1 and print the buffer id
+Changes in freelist.c:
+•	Declared a new function getMaxTimeStamp which returns the maximum time stamp of all buffers to update the recently used buffer’s timestamp to 1+maximum
+•	Changes made in StrategyGetBuffer:
+1.	The LRU implementation is from line number :332.
+2.	To Iterate the buffer pool(NBuffers time) and fetch the least recently used buffer,update its time stamp and return the buffer.
